@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navber = () => {
   return (
-    <div>Navber</div>
+    <div >Navber</div>
   )
 }
 

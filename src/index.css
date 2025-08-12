@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+
+@theme {
+  --spacing-container: 1200px; 
+
+   --font-source: "Source Serif 4", serif;
+   --font-pop: "Poppins", sans-serif;
+
+   --color-first: #243c5a; 
+   --color-second: #333333; 
+}

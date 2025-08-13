@@ -1,18 +1,10 @@
 import React from 'react'
-import Admission from './Admission'
-import Academic from './Academic'
-import Facelities from './Facelities'
-import Branches from './Branches'
-import AboutUs from './AboutUs'
+import AdmissionSection from '../layouts/AdmissionSection'
 
 const Home = () => {
   return (
     <>
-    <Admission/>
-    <Academic/>
-    <Facelities/>
-    <Branches/>
-    <AboutUs/>
+    <AdmissionSection/>
     </>
   )
 }

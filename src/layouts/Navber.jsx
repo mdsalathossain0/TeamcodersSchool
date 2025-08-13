@@ -12,6 +12,10 @@ const Navber = () => {
   let handleClick=()=>{
     setShow(!show)
   }
+
+  let handleClose =()=>{
+    setShow(false)
+  }
   return (
     <>
     <section className='bg-fourth py-5 hidden lg:block'>
@@ -47,11 +51,11 @@ const Navber = () => {
           show &&
           <div className='absolute top-[120px] left-0 w-full bg-fourth py-6'>
             <Flex className='flex-col gap-y-5 justify-center items-center'>
-            <Link to='/admission'><List text='Admission'/></Link>
-            <Link to='/branches'><List text='Branches'/></Link>
-            <Link to='/academic'><List text='Academic'/></Link>
-            <Link to='/facelities'><List text='Facilities'/></Link>
-            <Link to='/aboutus'><List text='About US'/></Link>
+            <Link onClick={handleClose} to='/admission'><List text='Admission'/></Link>
+            <Link onClick={handleClose} to='/branches'><List text='Branches'/></Link>
+            <Link onClick={handleClose} to='/academic'><List text='Academic'/></Link>
+            <Link onClick={handleClose} to='/facelities'><List text='Facilities'/></Link>
+            <Link onClick={handleClose} to='/aboutus'><List text='About US'/></Link>
           </Flex>
           </div>
         }

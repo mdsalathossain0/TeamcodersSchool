@@ -7,7 +7,7 @@ import banner from '../assets/banner.jpg'
 
 const AdmissionSection = () => {
   return (
-    <section className='bg-fourth py-19 px-4'>
+    <section className='bg-fourth py-12 lg:py-19 px-4'>
         <Container>
             <Flex className='flex-col lg:flex-row gap-y-10 lg:gap-y-0'>
                 <div className='w-full lg:w-7/12'>
